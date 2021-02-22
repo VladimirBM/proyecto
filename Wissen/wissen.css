@@ -1,0 +1,201 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background:#2e318c;
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin:0;
+    line-height: 1.4;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+h2{
+    font-size: 33px;
+}
+h3{
+    font-size: 27px;
+}
+h4{
+    font-size: 22px;
+    font-weight: 400;
+}
+h5{
+    font-size: 20px;
+    font-weight: 400;
+}
+p{
+    font-size: 16px;
+}
+header{
+    z-index: 1;
+}
+#header{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 125px;
+    justify-content: space-between;
+}
+header #logo a{
+    display: block;
+}
+header #logo img{
+    height: auto;
+    width: 125px;
+}
+#hero{
+    margin-top: 50px;
+}
+.hero{
+    display: flex;
+    height: 500px;
+    align-items: center;
+}
+.hero__copy{
+    padding-right: 25px;
+}
+#botones a{
+    color: #FFF;
+    background: #ed691c;
+    margin-top: 20px;
+}
+.hero__img{
+    padding-left: 25px;
+}
+#vistazo{
+    margin-top: 80px;
+}
+.vistazo{
+    align-items: flex-start;
+    display: flex;
+    text-align: center;
+    height: 150px;
+}
+.vistazo__cont{
+    padding: 5px 20px;
+    width: 25%;
+}
+.vistazo i{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+#beneficio{
+    margin-top: 80px;
+}
+.beneficio{
+    margin-top: 50px;
+}
+.beneficio__cont{
+    align-items: center;
+    display: flex;
+    margin: 30px 0;
+}
+.beneficio__img{
+    padding-right: 25px;
+    width: 50%;
+}
+.beneficio__copy{
+    padding: 10px 80px;
+    width: 50%;
+}
+#beneficios{
+    margin-top: 80px;
+}
+.beneficios{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.beneficios__cont{
+    margin: 25px;
+    width: 28%;
+}
+#faq{
+    display: none;
+}
+/*CLASES*/
+.container{
+    display: block;
+    width: 1280px;
+    margin: 0 auto;
+}
+.botones{
+    border-radius: 25px;
+    display: block;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    width: 250px;
+}
+.titulo h2{
+    font-weight: 700;
+}
+.titulo p{
+    font-size: 18px;
+}
+.img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width:1365px){ 
+    .container{
+        width: 1170px;
+    }
+}
+@media (max-width:1270px){ 
+    .container{
+        width: 990px;
+    }
+}
+@media (max-width:1023px){ 
+    .container{
+        width: 740px;
+    }
+    header #logo img {
+        width: 120px;
+    }
+    #whatsapp__api{
+        bottom:80px;
+    }
+}
+@media (max-width:767px){ 
+    .container {        
+        padding-right: 15px;
+        padding-left: 15px;
+        margin:0 auto;
+        width: initial;
+    }
+    h1{
+        font-size: 32px;
+    }
+    h2{
+        font-size:26px;
+    }
+    h4{
+        font-size:18px;
+    }
+    #header{
+        height: 65px;
+    }
+}
+
